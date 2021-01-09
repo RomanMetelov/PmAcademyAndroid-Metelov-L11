@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/notifications_activity"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpleNotification"
+        android:layout_width="250dp"
+        android:layout_height="67dp"
+        android:gravity="center_horizontal"
+        android:text="1 \n Simple Notification"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/btnNotificationWithAction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNotificationWithAction"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center_horizontal"
+        android:text="2 \n Notification With Action"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNotificationWithReply"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center_horizontal"
+        android:text="3 \n Notification With Reply"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNotificationWithAction" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNotificationWithProgress"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center_horizontal"
+        android:text="4 \n Notification With Progress"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNotificationWithReply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

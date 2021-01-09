@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PmAcademyAndroidMetelovL11">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ReceiversActivity" />
+        <activity android:name=".Task2Activity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".ActivityWithExtras" />
+        <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PmAcademyAndroid-Metelov-L11</string>
+    <string name="start_activity">Start Activity</string>
+    <string name="notifications_activity">Task 1 - Notifications</string>
+    <string name="task2_activity">Task 2</string>
+    <string name="receivers_activity">Task 3 - Receivers</string>
 </resources>
